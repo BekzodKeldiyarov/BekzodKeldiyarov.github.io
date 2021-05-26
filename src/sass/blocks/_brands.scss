@@ -1,0 +1,31 @@
+.brands {
+  padding: 30px 135px;
+
+  &__title{
+    font-size: 24px;
+    font-weight: bold;
+    color: #202627;
+  }
+  &__list{
+    list-style: none;
+    padding: 0;
+  }
+  &__img{
+    display: block;
+    margin: 0 auto;
+  }
+  .slick-prev,
+  .slick-next {
+    top: 50%;
+    margin-top: -5px;
+    left: 0;
+    &::before,
+    &::after {
+      background-color: #000;
+    }
+  }
+  .slick-next{
+    left: auto;
+    right: 0;
+  }
+}

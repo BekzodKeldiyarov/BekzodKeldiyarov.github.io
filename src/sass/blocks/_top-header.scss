@@ -1,0 +1,40 @@
+
+.top__header {
+
+  padding: 0px 123px;
+  height: 35px;
+  background-color: #eeeeee;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  &__list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__item {
+    margin: 0 5px;
+    font-size: 12px;
+
+    a {
+      color: #3b7adb;
+    }
+  }
+
+  &__right {
+    ul {
+      justify-content: center;
+    }
+  }
+
+ .sign-up{
+   color: #202627;
+   text-decoration: none;
+ }
+
+
+}

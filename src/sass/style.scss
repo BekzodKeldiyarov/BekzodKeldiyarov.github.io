@@ -1,0 +1,22 @@
+
+img {
+  max-width: 100%;
+}
+
+* {
+  font-family: 'Roboto', sans-serif;
+}
+
+a {
+  color: #3b7adb;
+}
+
+@import "blocks/top-header";
+@import "blocks/top-menu";
+@import "blocks/intro";
+@import "blocks/promo";
+@import "blocks/gallery";
+@import "blocks/banners";
+@import "blocks/brands";
+@import "blocks/blog";
+@import "blocks/popup";
